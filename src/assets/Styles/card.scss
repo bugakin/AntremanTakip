@@ -1,0 +1,55 @@
+.card{
+    width: 500px;
+    padding: 30px;
+     
+    background-color: orange;
+    border-radius: 50px;
+    display: flex;
+    position: relative;
+     img{
+       height: 250px;
+       width: 50%;
+       object-fit: cover;
+       border-radius: 20px;
+       }   
+       &-content{
+       padding: 10px;
+       margin: 10px;
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+       }
+       .edit, .delete{
+        position: absolute;
+        background-color:burlywood ;
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover{
+          background-color: red;
+        }
+        &:disabled{
+            border-color: lightgray;
+            color: lightgray;
+            opacity: .7;
+           
+          
+            
+        }
+    
+    }
+        .edit{
+            right: 70px;
+            bottom: 80px;
+            width: 150px;
+
+        }
+        .delete{
+            right: 70px;
+            bottom: 50px;
+            width: 150px;
+
+        }
+      
+      
+       
+
+    
+}

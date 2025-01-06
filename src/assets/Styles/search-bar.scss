@@ -1,0 +1,26 @@
+.search-bar{
+    background-color: linear-gradient(#c25151,#EEDF7A);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .categories{
+      display: flex;
+      gap: 20px;
+      padding: 0;
+     button{
+        border-radius: 50%;
+        background-color: #c25151;
+        padding: 40px;
+        margin: 30px;
+        transition: .4s;
+        cursor: pointer;
+        font-size: large;
+        &:hover{
+          color: aliceblue;
+          transform: scale(2,2);
+        
+          }
+     }
+    }
+  }
